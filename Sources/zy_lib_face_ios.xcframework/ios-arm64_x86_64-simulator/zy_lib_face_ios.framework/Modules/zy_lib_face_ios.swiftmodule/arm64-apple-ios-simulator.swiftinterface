@@ -1,0 +1,109 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name zy_lib_face_ios
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import zy_lib_face_ios
+public class ImageAnalytics {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(psImageBase64: Swift.String)
+  #endif
+  public func getWidth() -> Swift.Int
+  public func getHeight() -> Swift.Int
+  public func getBitsPerPixel() -> Swift.Int
+  public func getResolution() -> Swift.String
+  public func getDate() -> Swift.String
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class ZyApiInfo : ObjectiveC.NSObject {
+  @objc public static let NAME: Swift.String
+  @objc public static var VERSION: Swift.String {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+public class ZyFaceBio {
+  public typealias CallbackFaceIdenty = (zy_lib_face_ios.ZyFaceResult<zy_lib_face_ios.ZyFaceResponse, zy_lib_face_ios.ZyFaceError>) -> Swift.Void
+  public init(onView: UIKit.UIViewController)
+  public func capturar(request: zy_lib_face_ios.ZyFaceRequest, completion: @escaping zy_lib_face_ios.ZyFaceBio.CallbackFaceIdenty)
+  @objc deinit
+}
+public struct ZyFaceRequest {
+  public var confIdentyRequiredTemplate: Swift.String
+  public var confIdentySecLevel: Swift.String
+  public var confIdentyDisplayResult: Swift.Bool
+  public var confIdentyEnableTraining: Swift.Bool
+  public var confIdentyEnableUiOption: Swift.String
+  public var confIdentyEnableBackButton: Swift.Bool
+  public var confIdentyAttempt: Swift.Int
+  public var confIdentyTimeLimit: Swift.Int
+  public var confIdentyEnableEyesStatus: Swift.Bool
+  public var confIdentyDisableDisplayAlert: Swift.Bool
+  public var confIdentyEnableIcaoCheck: Swift.Bool
+  public var confIdentyEnableStrictCaptureMode: Swift.Bool
+  public var confIdentyEnablePrecaptureCheck: Swift.String
+  public var confIdentyEnableColorBackground: Swift.Bool
+  public var confIdentyColorBackground: Swift.String
+  public var confIdentyIsEncrypted: Swift.Bool
+  public init()
+}
+public enum ZyFaceResult<T, E> {
+  case success(T)
+  case error(E)
+}
+@_hasMissingDesignatedInitializers public class ZyFaceResponse {
+  public var coError: Swift.Int
+  public var deError: Swift.String
+  public var face: [zy_lib_face_ios.ZyFaceData]
+  public var removeBackground: Swift.String?
+  public var isSpoof: Swift.Bool
+  public var isEncrypted: Swift.Bool
+  public var jsonResponse: Swift.String
+  public var poZyEncryptResponse: zy_lib_face_ios.ZyEncryptResponse?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ZyFaceError {
+  public var coError: Swift.Int
+  public var deError: Swift.String
+  public var isSpoof: Swift.Bool
+  public var templateSpoof: Swift.String?
+  public var jsonResponse: Swift.String
+  @objc deinit
+}
+public struct ZyFaceData {
+  public let png: Swift.String
+  public let iso5: Swift.String
+  public let jpeg: Swift.String
+  public let height: Swift.String
+  public let width: Swift.String
+}
+public struct ZyEncryptResponse {
+  public var data: Swift.String?
+  public var key1: Swift.String?
+  public var key2: Swift.String?
+  public var trxId: Swift.String?
+}
+@_hasMissingDesignatedInitializers final public class ZyMultiIdentyFaceLib {
+  public static let shared: zy_lib_face_ios.ZyMultiIdentyFaceLib
+  final public func initialize(company: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class ZyMultiIdentyFaceManager {
+  public static let shared: zy_lib_face_ios.ZyMultiIdentyFaceManager
+  final public func load(company: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func getBundle() -> Foundation.Bundle?
+  #endif
+  @objc deinit
+}
+public struct ZyMultiIdentyLicense : Swift.Decodable {
+  public let licenses: [Swift.String : Swift.String]
+  public let `default`: Swift.String
+  public init(from decoder: any Swift.Decoder) throws
+}

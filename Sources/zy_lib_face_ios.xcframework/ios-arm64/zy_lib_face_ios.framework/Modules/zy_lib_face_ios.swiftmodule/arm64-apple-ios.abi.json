@@ -1,0 +1,5190 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "zy_lib_face_ios",
+    "printedName": "zy_lib_face_ios",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "zy_lib_face_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageAnalytics",
+        "printedName": "ImageAnalytics",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(psImageBase64:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "zy_lib_face_ios.ImageAnalytics?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageAnalytics",
+                    "printedName": "zy_lib_face_ios.ImageAnalytics",
+                    "usr": "s:15zy_lib_face_ios14ImageAnalyticsC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15zy_lib_face_ios14ImageAnalyticsC02psE6Base64ACSgSS_tcfc",
+            "mangledName": "$s15zy_lib_face_ios14ImageAnalyticsC02psE6Base64ACSgSS_tcfc",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getWidth",
+            "printedName": "getWidth()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15zy_lib_face_ios14ImageAnalyticsC8getWidthSiyF",
+            "mangledName": "$s15zy_lib_face_ios14ImageAnalyticsC8getWidthSiyF",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getHeight",
+            "printedName": "getHeight()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15zy_lib_face_ios14ImageAnalyticsC9getHeightSiyF",
+            "mangledName": "$s15zy_lib_face_ios14ImageAnalyticsC9getHeightSiyF",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBitsPerPixel",
+            "printedName": "getBitsPerPixel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15zy_lib_face_ios14ImageAnalyticsC15getBitsPerPixelSiyF",
+            "mangledName": "$s15zy_lib_face_ios14ImageAnalyticsC15getBitsPerPixelSiyF",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getResolution",
+            "printedName": "getResolution()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15zy_lib_face_ios14ImageAnalyticsC13getResolutionSSyF",
+            "mangledName": "$s15zy_lib_face_ios14ImageAnalyticsC13getResolutionSSyF",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDate",
+            "printedName": "getDate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15zy_lib_face_ios14ImageAnalyticsC7getDateSSyF",
+            "mangledName": "$s15zy_lib_face_ios14ImageAnalyticsC7getDateSSyF",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15zy_lib_face_ios14ImageAnalyticsC",
+        "mangledName": "$s15zy_lib_face_ios14ImageAnalyticsC",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyApiInfo",
+        "printedName": "ZyApiInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "NAME",
+            "printedName": "NAME",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@zy_lib_face_ios@objc(cs)ZyApiInfo(cpy)NAME",
+            "mangledName": "$s15zy_lib_face_ios9ZyApiInfoC4NAMESSvpZ",
+            "moduleName": "zy_lib_face_ios",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@zy_lib_face_ios@objc(cs)ZyApiInfo(cm)NAME",
+                "mangledName": "$s15zy_lib_face_ios9ZyApiInfoC4NAMESSvgZ",
+                "moduleName": "zy_lib_face_ios",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "VERSION",
+            "printedName": "VERSION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@zy_lib_face_ios@objc(cs)ZyApiInfo(cpy)VERSION",
+            "mangledName": "$s15zy_lib_face_ios9ZyApiInfoC7VERSIONSSvpZ",
+            "moduleName": "zy_lib_face_ios",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@zy_lib_face_ios@objc(cs)ZyApiInfo(cm)VERSION",
+                "mangledName": "$s15zy_lib_face_ios9ZyApiInfoC7VERSIONSSvgZ",
+                "moduleName": "zy_lib_face_ios",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyApiInfo",
+                "printedName": "zy_lib_face_ios.ZyApiInfo",
+                "usr": "c:@M@zy_lib_face_ios@objc(cs)ZyApiInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@zy_lib_face_ios@objc(cs)ZyApiInfo(im)init",
+            "mangledName": "$s15zy_lib_face_ios9ZyApiInfoCACycfc",
+            "moduleName": "zy_lib_face_ios",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@zy_lib_face_ios@objc(cs)ZyApiInfo",
+        "mangledName": "$s15zy_lib_face_ios9ZyApiInfoC",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyFaceBio",
+        "printedName": "ZyFaceBio",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyFaceBio",
+                "printedName": "zy_lib_face_ios.ZyFaceBio",
+                "usr": "s:15zy_lib_face_ios9ZyFaceBioC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15zy_lib_face_ios9ZyFaceBioC6onViewACSo16UIViewControllerC_tcfc",
+            "mangledName": "$s15zy_lib_face_ios9ZyFaceBioC6onViewACSo16UIViewControllerC_tcfc",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "capturar",
+            "printedName": "capturar(request:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZyFaceRequest",
+                "printedName": "zy_lib_face_ios.ZyFaceRequest",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(zy_lib_face_ios.ZyFaceResult<zy_lib_face_ios.ZyFaceResponse, zy_lib_face_ios.ZyFaceError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyFaceResult",
+                    "printedName": "zy_lib_face_ios.ZyFaceResult<zy_lib_face_ios.ZyFaceResponse, zy_lib_face_ios.ZyFaceError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyFaceResponse",
+                        "printedName": "zy_lib_face_ios.ZyFaceResponse",
+                        "usr": "s:15zy_lib_face_ios14ZyFaceResponseC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyFaceError",
+                        "printedName": "zy_lib_face_ios.ZyFaceError",
+                        "usr": "s:15zy_lib_face_ios11ZyFaceErrorC"
+                      }
+                    ],
+                    "usr": "s:15zy_lib_face_ios12ZyFaceResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15zy_lib_face_ios9ZyFaceBioC8capturar7request10completionyAA0eF7RequestV_yAA0eF6ResultOyAA0eF8ResponseCAA0eF5ErrorCGctF",
+            "mangledName": "$s15zy_lib_face_ios9ZyFaceBioC8capturar7request10completionyAA0eF7RequestV_yAA0eF6ResultOyAA0eF8ResponseCAA0eF5ErrorCGctF",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15zy_lib_face_ios9ZyFaceBioC",
+        "mangledName": "$s15zy_lib_face_ios9ZyFaceBioC",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyFaceRequest",
+        "printedName": "ZyFaceRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "confIdentyRequiredTemplate",
+            "printedName": "confIdentyRequiredTemplate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV26confIdentyRequiredTemplateSSvp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV26confIdentyRequiredTemplateSSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV26confIdentyRequiredTemplateSSvg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV26confIdentyRequiredTemplateSSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV26confIdentyRequiredTemplateSSvs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV26confIdentyRequiredTemplateSSvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV26confIdentyRequiredTemplateSSvM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV26confIdentyRequiredTemplateSSvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentySecLevel",
+            "printedName": "confIdentySecLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV18confIdentySecLevelSSvp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV18confIdentySecLevelSSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV18confIdentySecLevelSSvg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV18confIdentySecLevelSSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV18confIdentySecLevelSSvs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV18confIdentySecLevelSSvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV18confIdentySecLevelSSvM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV18confIdentySecLevelSSvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentyDisplayResult",
+            "printedName": "confIdentyDisplayResult",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV23confIdentyDisplayResultSbvp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV23confIdentyDisplayResultSbvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV23confIdentyDisplayResultSbvg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV23confIdentyDisplayResultSbvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV23confIdentyDisplayResultSbvs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV23confIdentyDisplayResultSbvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV23confIdentyDisplayResultSbvM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV23confIdentyDisplayResultSbvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentyEnableTraining",
+            "printedName": "confIdentyEnableTraining",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableTrainingSbvp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableTrainingSbvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableTrainingSbvg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableTrainingSbvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableTrainingSbvs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableTrainingSbvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableTrainingSbvM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableTrainingSbvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentyEnableUiOption",
+            "printedName": "confIdentyEnableUiOption",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableUiOptionSSvp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableUiOptionSSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableUiOptionSSvg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableUiOptionSSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableUiOptionSSvs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableUiOptionSSvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableUiOptionSSvM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV24confIdentyEnableUiOptionSSvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentyEnableBackButton",
+            "printedName": "confIdentyEnableBackButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableBackButtonSbvp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableBackButtonSbvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableBackButtonSbvg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableBackButtonSbvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableBackButtonSbvs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableBackButtonSbvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableBackButtonSbvM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableBackButtonSbvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentyAttempt",
+            "printedName": "confIdentyAttempt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV17confIdentyAttemptSivp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV17confIdentyAttemptSivp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV17confIdentyAttemptSivg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV17confIdentyAttemptSivg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV17confIdentyAttemptSivs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV17confIdentyAttemptSivs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV17confIdentyAttemptSivM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV17confIdentyAttemptSivM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentyTimeLimit",
+            "printedName": "confIdentyTimeLimit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV19confIdentyTimeLimitSivp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV19confIdentyTimeLimitSivp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV19confIdentyTimeLimitSivg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV19confIdentyTimeLimitSivg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV19confIdentyTimeLimitSivs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV19confIdentyTimeLimitSivs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV19confIdentyTimeLimitSivM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV19confIdentyTimeLimitSivM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentyEnableEyesStatus",
+            "printedName": "confIdentyEnableEyesStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableEyesStatusSbvp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableEyesStatusSbvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableEyesStatusSbvg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableEyesStatusSbvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableEyesStatusSbvs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableEyesStatusSbvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableEyesStatusSbvM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV26confIdentyEnableEyesStatusSbvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentyDisableDisplayAlert",
+            "printedName": "confIdentyDisableDisplayAlert",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV29confIdentyDisableDisplayAlertSbvp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV29confIdentyDisableDisplayAlertSbvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV29confIdentyDisableDisplayAlertSbvg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV29confIdentyDisableDisplayAlertSbvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV29confIdentyDisableDisplayAlertSbvs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV29confIdentyDisableDisplayAlertSbvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV29confIdentyDisableDisplayAlertSbvM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV29confIdentyDisableDisplayAlertSbvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentyEnableIcaoCheck",
+            "printedName": "confIdentyEnableIcaoCheck",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV25confIdentyEnableIcaoCheckSbvp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV25confIdentyEnableIcaoCheckSbvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV25confIdentyEnableIcaoCheckSbvg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV25confIdentyEnableIcaoCheckSbvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV25confIdentyEnableIcaoCheckSbvs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV25confIdentyEnableIcaoCheckSbvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV25confIdentyEnableIcaoCheckSbvM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV25confIdentyEnableIcaoCheckSbvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentyEnableStrictCaptureMode",
+            "printedName": "confIdentyEnableStrictCaptureMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV33confIdentyEnableStrictCaptureModeSbvp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV33confIdentyEnableStrictCaptureModeSbvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV33confIdentyEnableStrictCaptureModeSbvg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV33confIdentyEnableStrictCaptureModeSbvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV33confIdentyEnableStrictCaptureModeSbvs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV33confIdentyEnableStrictCaptureModeSbvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV33confIdentyEnableStrictCaptureModeSbvM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV33confIdentyEnableStrictCaptureModeSbvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentyEnablePrecaptureCheck",
+            "printedName": "confIdentyEnablePrecaptureCheck",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnablePrecaptureCheckSSvp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnablePrecaptureCheckSSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnablePrecaptureCheckSSvg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnablePrecaptureCheckSSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnablePrecaptureCheckSSvs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnablePrecaptureCheckSSvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnablePrecaptureCheckSSvM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnablePrecaptureCheckSSvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentyEnableColorBackground",
+            "printedName": "confIdentyEnableColorBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnableColorBackgroundSbvp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnableColorBackgroundSbvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnableColorBackgroundSbvg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnableColorBackgroundSbvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnableColorBackgroundSbvs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnableColorBackgroundSbvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnableColorBackgroundSbvM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV31confIdentyEnableColorBackgroundSbvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentyColorBackground",
+            "printedName": "confIdentyColorBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV25confIdentyColorBackgroundSSvp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV25confIdentyColorBackgroundSSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV25confIdentyColorBackgroundSSvg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV25confIdentyColorBackgroundSSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV25confIdentyColorBackgroundSSvs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV25confIdentyColorBackgroundSSvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV25confIdentyColorBackgroundSSvM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV25confIdentyColorBackgroundSSvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confIdentyIsEncrypted",
+            "printedName": "confIdentyIsEncrypted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestV21confIdentyIsEncryptedSbvp",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV21confIdentyIsEncryptedSbvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV21confIdentyIsEncryptedSbvg",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV21confIdentyIsEncryptedSbvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV21confIdentyIsEncryptedSbvs",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV21confIdentyIsEncryptedSbvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV21confIdentyIsEncryptedSbvM",
+                "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV21confIdentyIsEncryptedSbvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyFaceRequest",
+                "printedName": "zy_lib_face_ios.ZyFaceRequest",
+                "usr": "s:15zy_lib_face_ios13ZyFaceRequestV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15zy_lib_face_ios13ZyFaceRequestVACycfc",
+            "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestVACycfc",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15zy_lib_face_ios13ZyFaceRequestV",
+        "mangledName": "$s15zy_lib_face_ios13ZyFaceRequestV",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyFaceResult",
+        "printedName": "ZyFaceResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1> (zy_lib_face_ios.ZyFaceResult<τ_0_0, τ_0_1>.Type) -> (τ_0_0) -> zy_lib_face_ios.ZyFaceResult<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> zy_lib_face_ios.ZyFaceResult<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyFaceResult",
+                        "printedName": "zy_lib_face_ios.ZyFaceResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:15zy_lib_face_ios12ZyFaceResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_lib_face_ios.ZyFaceResult<τ_0_0, τ_0_1>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyFaceResult",
+                        "printedName": "zy_lib_face_ios.ZyFaceResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:15zy_lib_face_ios12ZyFaceResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15zy_lib_face_ios12ZyFaceResultO7successyACyxq_GxcAEmr0_lF",
+            "mangledName": "$s15zy_lib_face_ios12ZyFaceResultO7successyACyxq_GxcAEmr0_lF",
+            "moduleName": "zy_lib_face_ios"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1> (zy_lib_face_ios.ZyFaceResult<τ_0_0, τ_0_1>.Type) -> (τ_0_1) -> zy_lib_face_ios.ZyFaceResult<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_1) -> zy_lib_face_ios.ZyFaceResult<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyFaceResult",
+                        "printedName": "zy_lib_face_ios.ZyFaceResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:15zy_lib_face_ios12ZyFaceResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_lib_face_ios.ZyFaceResult<τ_0_0, τ_0_1>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyFaceResult",
+                        "printedName": "zy_lib_face_ios.ZyFaceResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:15zy_lib_face_ios12ZyFaceResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15zy_lib_face_ios12ZyFaceResultO5erroryACyxq_Gq_cAEmr0_lF",
+            "mangledName": "$s15zy_lib_face_ios12ZyFaceResultO5erroryACyxq_Gq_cAEmr0_lF",
+            "moduleName": "zy_lib_face_ios"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15zy_lib_face_ios12ZyFaceResultO",
+        "mangledName": "$s15zy_lib_face_ios12ZyFaceResultO",
+        "moduleName": "zy_lib_face_ios",
+        "genericSig": "<τ_0_0, τ_0_1>",
+        "sugared_genericSig": "<T, E>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyFaceResponse",
+        "printedName": "ZyFaceResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "coError",
+            "printedName": "coError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios14ZyFaceResponseC7coErrorSivp",
+            "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC7coErrorSivp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC7coErrorSivg",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC7coErrorSivg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC7coErrorSivs",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC7coErrorSivs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC7coErrorSivM",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC7coErrorSivM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deError",
+            "printedName": "deError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios14ZyFaceResponseC7deErrorSSvp",
+            "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC7deErrorSSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC7deErrorSSvg",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC7deErrorSSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC7deErrorSSvs",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC7deErrorSSvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC7deErrorSSvM",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC7deErrorSSvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "face",
+            "printedName": "face",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[zy_lib_face_ios.ZyFaceData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyFaceData",
+                    "printedName": "zy_lib_face_ios.ZyFaceData",
+                    "usr": "s:15zy_lib_face_ios10ZyFaceDataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios14ZyFaceResponseC0C0SayAA0eF4DataVGvp",
+            "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC0C0SayAA0eF4DataVGvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[zy_lib_face_ios.ZyFaceData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyFaceData",
+                        "printedName": "zy_lib_face_ios.ZyFaceData",
+                        "usr": "s:15zy_lib_face_ios10ZyFaceDataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC0C0SayAA0eF4DataVGvg",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC0C0SayAA0eF4DataVGvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[zy_lib_face_ios.ZyFaceData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyFaceData",
+                        "printedName": "zy_lib_face_ios.ZyFaceData",
+                        "usr": "s:15zy_lib_face_ios10ZyFaceDataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC0C0SayAA0eF4DataVGvs",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC0C0SayAA0eF4DataVGvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC0C0SayAA0eF4DataVGvM",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC0C0SayAA0eF4DataVGvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "removeBackground",
+            "printedName": "removeBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios14ZyFaceResponseC16removeBackgroundSSSgvp",
+            "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC16removeBackgroundSSSgvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC16removeBackgroundSSSgvg",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC16removeBackgroundSSSgvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC16removeBackgroundSSSgvs",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC16removeBackgroundSSSgvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC16removeBackgroundSSSgvM",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC16removeBackgroundSSSgvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSpoof",
+            "printedName": "isSpoof",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios14ZyFaceResponseC7isSpoofSbvp",
+            "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC7isSpoofSbvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC7isSpoofSbvg",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC7isSpoofSbvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC7isSpoofSbvs",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC7isSpoofSbvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC7isSpoofSbvM",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC7isSpoofSbvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isEncrypted",
+            "printedName": "isEncrypted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios14ZyFaceResponseC11isEncryptedSbvp",
+            "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC11isEncryptedSbvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC11isEncryptedSbvg",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC11isEncryptedSbvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC11isEncryptedSbvs",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC11isEncryptedSbvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC11isEncryptedSbvM",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC11isEncryptedSbvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "jsonResponse",
+            "printedName": "jsonResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios14ZyFaceResponseC04jsonG0SSvp",
+            "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC04jsonG0SSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC04jsonG0SSvg",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC04jsonG0SSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC04jsonG0SSvs",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC04jsonG0SSvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC04jsonG0SSvM",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC04jsonG0SSvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "poZyEncryptResponse",
+            "printedName": "poZyEncryptResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "zy_lib_face_ios.ZyEncryptResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyEncryptResponse",
+                    "printedName": "zy_lib_face_ios.ZyEncryptResponse",
+                    "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios14ZyFaceResponseC02poe7EncryptG0AA0eiG0VSgvp",
+            "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC02poe7EncryptG0AA0eiG0VSgvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "zy_lib_face_ios.ZyEncryptResponse?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyEncryptResponse",
+                        "printedName": "zy_lib_face_ios.ZyEncryptResponse",
+                        "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC02poe7EncryptG0AA0eiG0VSgvg",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC02poe7EncryptG0AA0eiG0VSgvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "zy_lib_face_ios.ZyEncryptResponse?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyEncryptResponse",
+                        "printedName": "zy_lib_face_ios.ZyEncryptResponse",
+                        "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC02poe7EncryptG0AA0eiG0VSgvs",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC02poe7EncryptG0AA0eiG0VSgvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC02poe7EncryptG0AA0eiG0VSgvM",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC02poe7EncryptG0AA0eiG0VSgvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15zy_lib_face_ios14ZyFaceResponseC",
+        "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyFaceError",
+        "printedName": "ZyFaceError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "coError",
+            "printedName": "coError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios11ZyFaceErrorC02coG0Sivp",
+            "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC02coG0Sivp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC02coG0Sivg",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC02coG0Sivg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC02coG0Sivs",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC02coG0Sivs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC02coG0SivM",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC02coG0SivM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deError",
+            "printedName": "deError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios11ZyFaceErrorC02deG0SSvp",
+            "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC02deG0SSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC02deG0SSvg",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC02deG0SSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC02deG0SSvs",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC02deG0SSvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC02deG0SSvM",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC02deG0SSvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSpoof",
+            "printedName": "isSpoof",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios11ZyFaceErrorC7isSpoofSbvp",
+            "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC7isSpoofSbvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC7isSpoofSbvg",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC7isSpoofSbvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC7isSpoofSbvs",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC7isSpoofSbvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC7isSpoofSbvM",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC7isSpoofSbvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "templateSpoof",
+            "printedName": "templateSpoof",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios11ZyFaceErrorC13templateSpoofSSSgvp",
+            "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC13templateSpoofSSSgvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC13templateSpoofSSSgvg",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC13templateSpoofSSSgvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC13templateSpoofSSSgvs",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC13templateSpoofSSSgvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC13templateSpoofSSSgvM",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC13templateSpoofSSSgvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "jsonResponse",
+            "printedName": "jsonResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios11ZyFaceErrorC12jsonResponseSSvp",
+            "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC12jsonResponseSSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC12jsonResponseSSvg",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC12jsonResponseSSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC12jsonResponseSSvs",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC12jsonResponseSSvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios11ZyFaceErrorC12jsonResponseSSvM",
+                "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC12jsonResponseSSvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15zy_lib_face_ios11ZyFaceErrorC",
+        "mangledName": "$s15zy_lib_face_ios11ZyFaceErrorC",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyFaceData",
+        "printedName": "ZyFaceData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "png",
+            "printedName": "png",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios10ZyFaceDataV3pngSSvp",
+            "mangledName": "$s15zy_lib_face_ios10ZyFaceDataV3pngSSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios10ZyFaceDataV3pngSSvg",
+                "mangledName": "$s15zy_lib_face_ios10ZyFaceDataV3pngSSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iso5",
+            "printedName": "iso5",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios10ZyFaceDataV4iso5SSvp",
+            "mangledName": "$s15zy_lib_face_ios10ZyFaceDataV4iso5SSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios10ZyFaceDataV4iso5SSvg",
+                "mangledName": "$s15zy_lib_face_ios10ZyFaceDataV4iso5SSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "jpeg",
+            "printedName": "jpeg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios10ZyFaceDataV4jpegSSvp",
+            "mangledName": "$s15zy_lib_face_ios10ZyFaceDataV4jpegSSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios10ZyFaceDataV4jpegSSvg",
+                "mangledName": "$s15zy_lib_face_ios10ZyFaceDataV4jpegSSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "height",
+            "printedName": "height",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios10ZyFaceDataV6heightSSvp",
+            "mangledName": "$s15zy_lib_face_ios10ZyFaceDataV6heightSSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios10ZyFaceDataV6heightSSvg",
+                "mangledName": "$s15zy_lib_face_ios10ZyFaceDataV6heightSSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "width",
+            "printedName": "width",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios10ZyFaceDataV5widthSSvp",
+            "mangledName": "$s15zy_lib_face_ios10ZyFaceDataV5widthSSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios10ZyFaceDataV5widthSSvg",
+                "mangledName": "$s15zy_lib_face_ios10ZyFaceDataV5widthSSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15zy_lib_face_ios10ZyFaceDataV",
+        "mangledName": "$s15zy_lib_face_ios10ZyFaceDataV",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyEncryptResponse",
+        "printedName": "ZyEncryptResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV4dataSSSgvp",
+            "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV4dataSSSgvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV4dataSSSgvg",
+                "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV4dataSSSgvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV4dataSSSgvs",
+                "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV4dataSSSgvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV4dataSSSgvM",
+                "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV4dataSSSgvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "key1",
+            "printedName": "key1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV4key1SSSgvp",
+            "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV4key1SSSgvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV4key1SSSgvg",
+                "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV4key1SSSgvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV4key1SSSgvs",
+                "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV4key1SSSgvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV4key1SSSgvM",
+                "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV4key1SSSgvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "key2",
+            "printedName": "key2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV4key2SSSgvp",
+            "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV4key2SSSgvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV4key2SSSgvg",
+                "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV4key2SSSgvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV4key2SSSgvs",
+                "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV4key2SSSgvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV4key2SSSgvM",
+                "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV4key2SSSgvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "trxId",
+            "printedName": "trxId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV5trxIdSSSgvp",
+            "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV5trxIdSSSgvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV5trxIdSSSgvg",
+                "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV5trxIdSSSgvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV5trxIdSSSgvs",
+                "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV5trxIdSSSgvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV5trxIdSSSgvM",
+                "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV5trxIdSSSgvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15zy_lib_face_ios17ZyEncryptResponseV",
+        "mangledName": "$s15zy_lib_face_ios17ZyEncryptResponseV",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyMultiIdentyFaceLib",
+        "printedName": "ZyMultiIdentyFaceLib",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyMultiIdentyFaceLib",
+                "printedName": "zy_lib_face_ios.ZyMultiIdentyFaceLib",
+                "usr": "s:15zy_lib_face_ios20ZyMultiIdentyFaceLibC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios20ZyMultiIdentyFaceLibC6sharedACvpZ",
+            "mangledName": "$s15zy_lib_face_ios20ZyMultiIdentyFaceLibC6sharedACvpZ",
+            "moduleName": "zy_lib_face_ios",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyMultiIdentyFaceLib",
+                    "printedName": "zy_lib_face_ios.ZyMultiIdentyFaceLib",
+                    "usr": "s:15zy_lib_face_ios20ZyMultiIdentyFaceLibC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios20ZyMultiIdentyFaceLibC6sharedACvgZ",
+                "mangledName": "$s15zy_lib_face_ios20ZyMultiIdentyFaceLibC6sharedACvgZ",
+                "moduleName": "zy_lib_face_ios",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(company:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15zy_lib_face_ios20ZyMultiIdentyFaceLibC10initialize7companyySS_tF",
+            "mangledName": "$s15zy_lib_face_ios20ZyMultiIdentyFaceLibC10initialize7companyySS_tF",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15zy_lib_face_ios20ZyMultiIdentyFaceLibC",
+        "mangledName": "$s15zy_lib_face_ios20ZyMultiIdentyFaceLibC",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyMultiIdentyFaceManager",
+        "printedName": "ZyMultiIdentyFaceManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyMultiIdentyFaceManager",
+                "printedName": "zy_lib_face_ios.ZyMultiIdentyFaceManager",
+                "usr": "s:15zy_lib_face_ios24ZyMultiIdentyFaceManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios24ZyMultiIdentyFaceManagerC6sharedACvpZ",
+            "mangledName": "$s15zy_lib_face_ios24ZyMultiIdentyFaceManagerC6sharedACvpZ",
+            "moduleName": "zy_lib_face_ios",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyMultiIdentyFaceManager",
+                    "printedName": "zy_lib_face_ios.ZyMultiIdentyFaceManager",
+                    "usr": "s:15zy_lib_face_ios24ZyMultiIdentyFaceManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios24ZyMultiIdentyFaceManagerC6sharedACvgZ",
+                "mangledName": "$s15zy_lib_face_ios24ZyMultiIdentyFaceManagerC6sharedACvgZ",
+                "moduleName": "zy_lib_face_ios",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(company:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15zy_lib_face_ios24ZyMultiIdentyFaceManagerC4load7companyySS_tF",
+            "mangledName": "$s15zy_lib_face_ios24ZyMultiIdentyFaceManagerC4load7companyySS_tF",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBundle",
+            "printedName": "getBundle()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15zy_lib_face_ios24ZyMultiIdentyFaceManagerC9getBundleSo8NSBundleCSgyF",
+            "mangledName": "$s15zy_lib_face_ios24ZyMultiIdentyFaceManagerC9getBundleSo8NSBundleCSgyF",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15zy_lib_face_ios24ZyMultiIdentyFaceManagerC",
+        "mangledName": "$s15zy_lib_face_ios24ZyMultiIdentyFaceManagerC",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyMultiIdentyLicense",
+        "printedName": "ZyMultiIdentyLicense",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "licenses",
+            "printedName": "licenses",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios20ZyMultiIdentyLicenseV8licensesSDyS2SGvp",
+            "mangledName": "$s15zy_lib_face_ios20ZyMultiIdentyLicenseV8licensesSDyS2SGvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios20ZyMultiIdentyLicenseV8licensesSDyS2SGvg",
+                "mangledName": "$s15zy_lib_face_ios20ZyMultiIdentyLicenseV8licensesSDyS2SGvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios20ZyMultiIdentyLicenseV7defaultSSvp",
+            "mangledName": "$s15zy_lib_face_ios20ZyMultiIdentyLicenseV7defaultSSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios20ZyMultiIdentyLicenseV7defaultSSvg",
+                "mangledName": "$s15zy_lib_face_ios20ZyMultiIdentyLicenseV7defaultSSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyMultiIdentyLicense",
+                "printedName": "zy_lib_face_ios.ZyMultiIdentyLicense",
+                "usr": "s:15zy_lib_face_ios20ZyMultiIdentyLicenseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15zy_lib_face_ios20ZyMultiIdentyLicenseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15zy_lib_face_ios20ZyMultiIdentyLicenseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "zy_lib_face_ios",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15zy_lib_face_ios20ZyMultiIdentyLicenseV",
+        "mangledName": "$s15zy_lib_face_ios20ZyMultiIdentyLicenseV",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "zy_lib_face_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "IdentyFace",
+        "printedName": "IdentyFace",
+        "declKind": "Import",
+        "moduleName": "zy_lib_face_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Util\/Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 4280,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Util\/Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5070,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Util\/Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5361,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Util\/ImageAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Util\/ImageAnalytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Util\/ImageAnalytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Util\/ImageAnalytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Util\/ImageAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyApiInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 76,
+      "length": 15,
+      "value": "\"IDENTY-BANBIF\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyApiInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 17,
+      "value": "\"zy_lib_face_ios\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyApiInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyApiInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 514,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyApiInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 558,
+      "length": 7,
+      "value": "\"0.0.0\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyApiInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 715,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyApiInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 759,
+      "length": 7,
+      "value": "\"0.0.0\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 6,
+      "value": "\"JPEG\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 9,
+      "value": "\"HIGHEST\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 298,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 353,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 10,
+      "value": "\"STANDARD\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 472,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 519,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 618,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 677,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 732,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 795,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 858,
+      "length": 9,
+      "value": "\"GLASSES\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 924,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 982,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1038,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1222,
+      "length": 4,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1257,
+      "length": 9,
+      "value": "\"8000:OK\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "Array",
+      "offset": 1302,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1383,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1424,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1467,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1606,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1638,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1672,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1760,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Config\/ZyMultiIdentyFaceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyFace.swift",
+      "kind": "BooleanLiteral",
+      "offset": 825,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
+      "length": 6,
+      "value": "\"JPEG\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 9,
+      "value": "\"HIGHEST\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 302,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 357,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 10,
+      "value": "\"STANDARD\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 476,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 523,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 568,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 622,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 681,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 736,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 799,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "StringLiteral",
+      "offset": 862,
+      "length": 9,
+      "value": "\"GLASSES\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 928,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "StringLiteral",
+      "offset": 986,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1042,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1192,
+      "length": 4,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1230,
+      "length": 4,
+      "value": "9101"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1260,
+      "length": 4,
+      "value": "8150"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1295,
+      "length": 4,
+      "value": "8151"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1334,
+      "length": 4,
+      "value": "8154"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1368,
+      "length": 4,
+      "value": "9104"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1405,
+      "length": 4,
+      "value": "9106"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1433,
+      "length": 4,
+      "value": "9107"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1462,
+      "length": 4,
+      "value": "9108"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1502,
+      "length": 4,
+      "value": "9109"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1532,
+      "length": 4,
+      "value": "9116"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1567,
+      "length": 4,
+      "value": "9105"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1601,
+      "length": 4,
+      "value": "9118"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1638,
+      "length": 4,
+      "value": "9150"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1677,
+      "length": 4,
+      "value": "9152"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1715,
+      "length": 4,
+      "value": "9153"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1758,
+      "length": 4,
+      "value": "9154"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1813,
+      "length": 4,
+      "value": "9155"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1860,
+      "length": 4,
+      "value": "9156"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1916,
+      "length": 4,
+      "value": "9157"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1955,
+      "length": 5,
+      "value": "22007"
+    },
+    {
+      "filePath": "\/Users\/jsaenz\/Documents\/Proyectos\/Identy\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Identy\/ZyTIdentyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2005,
+      "length": 4,
+      "value": "9200"
+    }
+  ]
+}

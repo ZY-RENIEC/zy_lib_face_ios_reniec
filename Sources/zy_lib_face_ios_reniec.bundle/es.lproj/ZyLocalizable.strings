@@ -1,0 +1,116 @@
+/*
+  ZyLocalizable.strings
+  zy-lib-onefinger-ios
+
+  Created by Edwin on 06/18/2021.
+  Copyright © 2021 CocoaPods. All rights reserved.
+*/
+/*Internet Check*/
+"identy_alert" = "Alerta";
+"identy_settings" = "Configuración";
+"identy_cancel" = "Cancelar";
+"identy_no_internet" = "Por favor, revisa tu conexión a Internet";
+"identy_enable_internet_message" = "Por favor, habilita el Internet";
+"identy_initialization_failed" = "Ocurrió un error en la inicialización";
+"identy_jailbroken_device" = "Dispositivo no permitido";
+"identy_activity_paused" = "Actividad en pausa";
+"identy_back_pressed" = "Actividad pausada al presionar atrás";
+"identy_timeout" = "Tiempo superado";
+"identy_limit_exceeded" = "Límite de transacción excedido";
+"identy_nistgenration_failed" = "Error al generar archivo NIST";
+"identy_templategenration_failed" = "Error al generar la plantilla";
+"identy_invalid_input" = "Entrada no válida";
+"id_unable_to_retrieve_template" = "No se pudo recuperar la plantilla";
+"id_unable_to_retrieve_file" = "No se pudo recuperar el archivo";
+"id_unable_to_convert_imageformat" = "No se pudo convertir al formato de imagen";
+"id_file_not_found" = "Archivo no encontrado";
+"id_encryption_failed" = "Error de cifrado";
+"id_close" = "Cerrar";
+"id_yes" = "Sí";
+"id_no" = "No";
+"id_enrollment_completed" = "Registro completado";
+"id_success_match" = "Verificación exitosa";
+"id_authentication_unsuccessful" = "Verificación fallida";
+"id_capture_successful" = "Captura completada";
+"identy_score" = "Puntaje";
+"id_something_is_weird_error" = "Algo es extraño";
+
+/*CameraViewController*/
+"id_badlighting" = "Evita las sombras";
+"id_too_bright" = "Demasiada luz: muévete a un lugar con mejor iluminación";
+"id_too_dark" = "Muy oscuro: muévete a un lugar con mejor iluminación";
+"id_searching_face" = "";
+
+"id_spoof" = "Falsificación";
+"id_hold" = "Centra tu rostro y no cierres los ojos";
+"id_hold_0" = "¡Listo!";
+"id_hold_1" = "Centra tu rostro y no cierres los ojos";
+"id_hold_2" = "Centra tu rostro y no cierres los ojos";
+"id_hold_3" = "Centra tu rostro y no cierres los ojos";
+"id_hold_4" = "Centra tu rostro y no cierres los ojos";
+"id_capturing" = "";
+"id_captured" = "";
+"id_inside_guide" = "Centra tu rostro y no cierres los ojos";
+"id_stable" = "Centra tu rostro y no cierres los ojos";
+
+/*IntroScreenViewController*/
+"id_next" = "Siguiente";
+"id_dshow_again" = "No volver a mostrar";
+"identy_please_wait" = "Procesando...";
+"id_keep_head_straight" = "Centra tu rostro y no cierres los ojos";
+
+/*Capture*/
+"id_bring_face_inside" = "Centra tu rostro y no cierres los ojos";
+"id_bring_face_closer" = "Centra tu rostro y no cierres los ojos";
+"id_center_face" = "Centra tu rostro y no cierres los ojos";
+"id_move_face_away" = "Aléjate de tu dispositivo";
+"id_frame_your_face" = "Centra tu rostro y no cierres los ojos";
+"id_alert_box" = "Alerta";
+"id_alert_msg" = "No se pudo capturar, vuelva a intentar";
+"id_alert_btn" = "Aceptar";
+"id_alert_nonetwork" = "Sin conexión de red";
+"id_phone_to_eye_level" = "Centra tu rostro y no cierres los ojos";
+"id_face_oval_center" = "Centra tu rostro y no cierres los ojos";
+"id_face_look_straight" = "Centra tu rostro y no cierres los ojos";
+"id_face_looking_down" = "Levanta la cabeza para estar paralelo a la cámara";
+"id_face_looking_right" = "Por favor mira al frente";
+"id_face_looking_left" = "Por favor mira al frente";
+"id_face_looking_up" = "Centra tu rostro y no cierres los ojos";
+"id_face_move_up" = "Mueve el rostro hacia arriba";
+"id_face_move_down" = "Por favor mira al frente";
+"id_eyes_closed" = "Ojos cerrados";
+"identy_camera_permission" = "Permiso para acceder a la cámara";
+"identy_camera_permission_message" = "Por favor dar permiso para usar la cámara";
+"identy_initialize" = "Inicializando...";
+"identy_exit" = "¿Deseas salir de la captura?";
+"id_face_further_away" = "Centra tu rostro y no cierres los ojos";
+
+/*Spoof Alert*/
+"id_at_timed_out" = "La iluminación es inusual";
+"id_something_weird" = "Ocurrió un error en la detección";
+"id_try_again_btn" = "Volver a intentar";
+"id_nistcreated" = "Archivo ANSI/NIST generado...";
+"id_noface" = "Centra tu rostro y no cierres los ojos";
+"id_timeout" = "Tiempo superado";
+"id_unsuccessful_recognition" = "Reconocimiento no exitoso";
+"id_ok" = "Aceptar";
+
+
+/*Others*/
+"id_identy_right" = "Muévete a la derecha";
+"id_identy_left" = "Muévete a la izquierda";
+"identy_invalid_transaction_time" = "Invalid Transaction Time";
+"identy_invalid_transaction_count" = "Invalid Transaction Count";
+"identy_no_lic_file" = "Hubó un error con la licencia";
+"id_face_footer_watermark" = "";
+
+"id_frame_your_frame" = "Centra tu rostro y no cierres los ojos";
+"id_face_head_straight" = "Centra tu rostro y no cierres los ojos";
+"id_face_remove_glasses" = "Quítate las gafas";
+"id_face_close_mouth" = "Cierra la boca";
+"id_face_open_eye" = "Abre los ojos";
+"id_face_remove_hat" = "Aléjate de tu dispositivo";
+"id_face_remove_hand" = "Quita la mano de la cara";
+"id_face_remove_mask" = "Quitar máscara";
+"id_face_remove_sunglasses" = "Quitar gafas de sol";
+"id_face_bring_closer" = "Centra tu rostro y no cierres los ojos";
