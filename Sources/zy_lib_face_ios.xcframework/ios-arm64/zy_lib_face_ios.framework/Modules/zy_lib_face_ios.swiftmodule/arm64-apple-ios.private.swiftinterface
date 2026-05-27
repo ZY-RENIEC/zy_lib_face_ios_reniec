@@ -50,6 +50,7 @@ public struct ZyFaceRequest {
   public var confIdentyEnableColorBackground: Swift.Bool
   public var confIdentyColorBackground: Swift.String
   public var confIdentyIsEncrypted: Swift.Bool
+  public var confIdentyEnableAssistedMode: Swift.Bool
   public init()
 }
 public enum ZyFaceResult<T, E> {
