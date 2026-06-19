@@ -65,6 +65,7 @@ public enum ZyFaceResult<T, E> {
   public var isSpoof: Swift.Bool
   public var isEncrypted: Swift.Bool
   public var jsonResponse: Swift.String
+  public var jsonIcao: Swift.String
   public var poZyEncryptResponse: zy_lib_face_ios.ZyEncryptResponse?
   @objc deinit
 }
