@@ -7,7 +7,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'zy_lib_face_ios_reniec'
-    s.version          = '6.3.5'
+    s.version          = '7.1.3'
     s.summary          = 'Libreria Facial Proyecto de Biometria.'
     
     # This description is used to generate tags and improve search results.
@@ -38,9 +38,9 @@ Pod::Spec.new do |s|
 
     s.resources = ['Sources/zy_lib_face_ios_reniec.bundle']
 
-    s.dependency 'zyIdentyFace','6.3.4'
-    s.dependency 'zyFaceLiveness','6.3.3'
-    s.dependency 'zyIdentyFaceIcaoLocal','6.3.3'
-    s.dependency 'zyIdentyFaceLocal','6.3.3'
+    s.dependency 'zyIdentyFace','7.1.2'
+    s.dependency 'zyIdentyFaceLivenessLarge','7.1.2'
+    s.dependency 'zyIdentyFaceIcaoLocal','7.1.2'
+    s.dependency 'zyIdentyFaceLocal','7.1.2'
 
 end
