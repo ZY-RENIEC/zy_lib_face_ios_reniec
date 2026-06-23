@@ -7,7 +7,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'zy_lib_face_ios_reniec'
-    s.version          = '7.1.3'
+    s.version          = '7.1.4'
     s.summary          = 'Libreria Facial Proyecto de Biometria.'
     
     # This description is used to generate tags and improve search results.

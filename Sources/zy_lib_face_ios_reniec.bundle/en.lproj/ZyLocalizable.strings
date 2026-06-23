@@ -87,8 +87,8 @@
 
 /*Spoof Alert*/
 "id_at_timed_out" = "La iluminación es inusual";
-"id_something_weird" = "Ocurrió un error en la detección";
-"id_try_again_btn" = "Volver a intentar";
+"id_something_weird" = "Ocurrió un error durante la captura";
+"id_try_again_btn" = "Volver a intentarlo";
 "id_nistcreated" = "Archivo ANSI/NIST generado...";
 "id_noface" = "Centra tu rostro y no cierres los ojos";
 "id_timeout" = "Tiempo superado";
