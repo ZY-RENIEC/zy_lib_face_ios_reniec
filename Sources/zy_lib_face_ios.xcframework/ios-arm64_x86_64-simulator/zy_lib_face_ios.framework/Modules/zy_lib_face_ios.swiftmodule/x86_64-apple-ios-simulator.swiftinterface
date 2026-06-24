@@ -80,6 +80,7 @@ public struct ZyFaceData {
   public let png: Swift.String
   public let iso5: Swift.String
   public let jpeg: Swift.String
+  public let jpegCustomData: Swift.String
   public let height: Swift.String
   public let width: Swift.String
 }

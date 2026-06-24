@@ -3740,6 +3740,50 @@
           },
           {
             "kind": "Var",
+            "name": "jpegCustomData",
+            "printedName": "jpegCustomData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios10ZyFaceDataV010jpegCustomG0SSvp",
+            "mangledName": "$s15zy_lib_face_ios10ZyFaceDataV010jpegCustomG0SSvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios10ZyFaceDataV010jpegCustomG0SSvg",
+                "mangledName": "$s15zy_lib_face_ios10ZyFaceDataV010jpegCustomG0SSvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "height",
             "printedName": "height",
             "children": [
