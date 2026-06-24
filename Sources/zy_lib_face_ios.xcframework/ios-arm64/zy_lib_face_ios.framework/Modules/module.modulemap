@@ -7,5 +7,4 @@ framework module zy_lib_face_ios {
 
 module zy_lib_face_ios.Swift {
   header "zy_lib_face_ios-Swift.h"
-  requires objc
 }
