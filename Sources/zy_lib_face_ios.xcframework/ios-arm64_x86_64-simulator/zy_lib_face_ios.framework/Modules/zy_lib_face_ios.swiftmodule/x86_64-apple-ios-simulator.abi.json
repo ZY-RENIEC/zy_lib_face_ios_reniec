@@ -3089,6 +3089,92 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "prints",
+            "printedName": "prints",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Prints",
+                "printedName": "zy_lib_face_ios.Prints",
+                "usr": "s:15zy_lib_face_ios6PrintsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios14ZyFaceResponseC6printsAA6PrintsVvp",
+            "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC6printsAA6PrintsVvp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Prints",
+                    "printedName": "zy_lib_face_ios.Prints",
+                    "usr": "s:15zy_lib_face_ios6PrintsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC6printsAA6PrintsVvg",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC6printsAA6PrintsVvg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Prints",
+                    "printedName": "zy_lib_face_ios.Prints",
+                    "usr": "s:15zy_lib_face_ios6PrintsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC6printsAA6PrintsVvs",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC6printsAA6PrintsVvs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios14ZyFaceResponseC6printsAA6PrintsVvM",
+                "mangledName": "$s15zy_lib_face_ios14ZyFaceResponseC6printsAA6PrintsVvM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -4367,6 +4453,122 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "Prints",
+        "printedName": "Prints",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eyesOpeningGrade",
+            "printedName": "eyesOpeningGrade",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15zy_lib_face_ios6PrintsV16eyesOpeningGradeSivp",
+            "mangledName": "$s15zy_lib_face_ios6PrintsV16eyesOpeningGradeSivp",
+            "moduleName": "zy_lib_face_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios6PrintsV16eyesOpeningGradeSivg",
+                "mangledName": "$s15zy_lib_face_ios6PrintsV16eyesOpeningGradeSivg",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios6PrintsV16eyesOpeningGradeSivs",
+                "mangledName": "$s15zy_lib_face_ios6PrintsV16eyesOpeningGradeSivs",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15zy_lib_face_ios6PrintsV16eyesOpeningGradeSivM",
+                "mangledName": "$s15zy_lib_face_ios6PrintsV16eyesOpeningGradeSivM",
+                "moduleName": "zy_lib_face_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15zy_lib_face_ios6PrintsV",
+        "mangledName": "$s15zy_lib_face_ios6PrintsV",
+        "moduleName": "zy_lib_face_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ZyMultiIdentyFaceLib",
         "printedName": "ZyMultiIdentyFaceLib",
         "children": [
@@ -5104,30 +5306,37 @@
     {
       "filePath": "\/Users\/icaceres\/Documents\/ios\/libs\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1702,
+      "offset": 1739,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/icaceres\/Documents\/ios\/libs\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
       "kind": "StringLiteral",
-      "offset": 1734,
+      "offset": 1771,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/icaceres\/Documents\/ios\/libs\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1768,
+      "offset": 1805,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/icaceres\/Documents\/ios\/libs\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
       "kind": "StringLiteral",
-      "offset": 1856,
+      "offset": 1893,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/icaceres\/Documents\/ios\/libs\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/ZyFaceModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2368,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/icaceres\/Documents\/ios\/libs\/zy_lib_face_ios\/zy_lib_face_ios\/Classes\/api\/Config\/ZyMultiIdentyFaceManager.swift",

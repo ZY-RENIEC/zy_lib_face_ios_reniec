@@ -66,6 +66,7 @@ public enum ZyFaceResult<T, E> {
   public var jsonResponse: Swift.String
   public var jsonIcao: Swift.String
   public var poZyEncryptResponse: zy_lib_face_ios.ZyEncryptResponse?
+  public var prints: zy_lib_face_ios.Prints
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ZyFaceError {
@@ -89,6 +90,9 @@ public struct ZyEncryptResponse {
   public var key1: Swift.String?
   public var key2: Swift.String?
   public var trxId: Swift.String?
+}
+public struct Prints {
+  public var eyesOpeningGrade: Swift.Int
 }
 @_hasMissingDesignatedInitializers final public class ZyMultiIdentyFaceLib {
   public static let shared: zy_lib_face_ios.ZyMultiIdentyFaceLib
